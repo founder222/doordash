@@ -5085,3 +5085,17 @@ i.tl_telegram_share_icon {
   max-width: 600px;
   margin: 0 auto;
 }
+
+/* Кастомная зеленая кнопка как на изображении */
+a.tgme_action_button_new {
+  background-color: #4CAF50 !important;
+  background-image: none !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.5px !important;
+}
+
+a.tgme_action_button_new:hover,
+a.tgme_action_button_new:active {
+  background-color: #45a049 !important;
+}
